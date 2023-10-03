@@ -72,3 +72,5 @@ C:\Users\khanh\source\repos\DotnetCoreVCB\bin\Debug\net6.0\Microsoft.Dynamic.dll
 C:\Users\khanh\source\repos\DotnetCoreVCB\bin\Debug\net6.0\Microsoft.Scripting.Metadata.dll
 C:\Users\khanh\source\repos\DotnetCoreVCB\bin\Debug\net6.0\Microsoft.Scripting.dll
 C:\Users\khanh\source\repos\DotnetCoreVCB\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\khanh\source\repos\DotnetCoreVCB\bin\Debug\net6.0\Microsoft.Extensions.Caching.SqlServer.dll
+C:\Users\khanh\source\repos\DotnetCoreVCB\bin\Debug\net6.0\Newtonsoft.Json.dll

@@ -39,7 +39,17 @@ builder.Services.AddDbContext<DemoDBContext>(options => options.UseSqlServer(
 
 builder.Services.AddSingleton<DemoDBContextDapper>(new DemoDBContextDapper(builder.Configuration.GetConnectionString("DemoDBConnectionString")));
 
+
+
+builder.Services.AddDistributedSqlServerCache(options =>
+{
+    options.ConnectionString = builder.Configuration.GetConnectionString("DistCacheDBConnectionString");
+    options.SchemaName = "dbo";
+    options.TableName = "TestCache";
+});
+
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IAppDistributedCache, AppDistributedCache>();
 
 var app = builder.Build();
 

@@ -70,6 +70,14 @@
               "target": "Package",
               "version": "[6.0.22, )"
             },
+            "Microsoft.Extensions.Caching.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "System.Dynamic.Runtime": {
               "target": "Package",
               "version": "[4.3.0, )"
